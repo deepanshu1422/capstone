@@ -1,0 +1,65 @@
+Use Case 
+
+
+Use Case ID
+
+
+Use Case Name 
+Sign Language Translator
+
+
+Usecase Description
+User opens application, provides the video feed. On the backend, the frames are taken into consideration. During the pre processing, relevant features are extracted and classified accordingly.  The intended gesture is the recognized and converted into text. The text is then displayed on the screeen.
+Assumptions
+
+
+High Computing Power is provided.
+User has smartphone.
+High quality camera.
+
+
+Trigger
+
+
+Whenever a hand gesture is done.
+Primary Actors
+Specially-abled Persons.
+Doctors.
+Governmental Organizations.
+Pre-Conditions
+
+
+Camera must be accessible by Portal.
+System has high-computing power.
+Gesture must be in the existing database.
+
+
+Normal Scenario
+User opens application and provides video feed.
+Frames are taken into consideration.
+Relevant features are extracted and classified.
+Intended gesture is recognized and converted into text.
+Text is then displayed on the screen.
+
+Alternate Scenario
+User opens application and provides video feed.
+Frames are taken into consideration.
+Relevant features are extracted and classified.
+If gesture is not recognized, nothing is displayed. 
+Application shows error message and asks user to retry.
+
+In worst case, user exits the applications.
+ 
+Post Conditions
+
+
+Success end condition
+The gesture is recognized and the corresponding text is displayed.
+
+
+Failure end condition:
+The gesture is not recognized and user is asked to retry.
+
+
+
+
